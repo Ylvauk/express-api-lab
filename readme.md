@@ -65,7 +65,7 @@ as a guide during the coding process.
 and frontend together, you may have to modify and fix your backend.
 
 ## Bonus
-* Add tagging functionality.
+* Add the ability to add a tag when creating a gif.
 * Add another model to the API.
 
 ## Plagiarism
