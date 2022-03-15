@@ -26,8 +26,8 @@ a few different routes:
 
 * GET `/gifs` which will list out all gifs
 * POST `/gifs` which will add a new gif and return a list of all gifs
-* PUT `gifs/:gifId` which will update a gif and redirect to the list of all gifs
-* DELETE `gifs/:gifId` which will delete a gif and redirect to the list of all gifs
+* PUT `gifs/:gifId` which will update a gif and return a list of all gifs
+* DELETE `gifs/:gifId` which will delete a gif and return a list of all gifs
 
 You should have your database set up to store a collection of gifs. Your model
 should have two attributes:
@@ -57,7 +57,7 @@ as a guide during the coding process.
 
 * To start, do a codebase review of the repo.
 * You'll want to set up all your backend folders and files (think: `db` folder, `index.js` file, etc.). 
-* You'll also want to run `npm init` to create a `package.json` file to manage dependencies (e.g. `express`).
+* You'll also want to run `npm init` from indisde the backend folder to create a `package.json` file to manage dependencies (e.g. `express`).
 * Set up routes in a controller.
 * Once you have your back end running on `http://localhost:3000/gifs`, open `index.html` on the front end to test your routes via the frontend buttons.
 
@@ -65,8 +65,6 @@ as a guide during the coding process.
 and frontend together, you may have to modify and fix your backend.
 
 ## Bonus
-
-* Deploy your backend to Heroku and frontend to GitHub pages.
 * Add tagging functionality.
 * Add another model to the API.
 
