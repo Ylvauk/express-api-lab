@@ -57,7 +57,7 @@ as a guide during the coding process.
 
 * To start, do a codebase review of the repo.
 * You'll want to set up all your backend folders and files (think: `db` folder, `index.js` file, etc.). 
-* You'll also want to run `npm init` from indisde the backend folder to create a `package.json` file to manage dependencies (e.g. `express`).
+* You'll also want to run `npm init` from inside the backend folder to create a `package.json` file to manage dependencies (e.g. `express`).
 * Set up routes in a controller.
 * Once you have your back end running on `http://localhost:3000/gifs`, open `index.html` on the front end to test your routes via the frontend buttons.
 
