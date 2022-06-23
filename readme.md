@@ -9,31 +9,30 @@ a bunch of Gifs.
 ![](images/gaphy.png)
 
 The frontend application has full CRUD functionality, your job is to create the
-backend code to make it functional!
+backend code to make it functional! The frontend can be found in this repository: https://github.com/SEIR-59/express-api-lab-frontend
 
 ## Instructions
 
+1. Fork and clone the frontend repository: https://github.com/SEIR-59/express-api-lab-frontend. Then start up the frontend using liveserver or by opening the index.html.
 1. Fork and clone this repository.
 1. Change into the new directory.
 1. Fulfill the listed requirements.
-
-Build out your backed in the `backend/` directory.
 
 ## Requirements
 
 You must create an API that runs at `http://localhost:3000/gifs`. You must have
 a few different routes:
 
-* GET `/gifs` which will list out all gifs
-* POST `/gifs` which will add a new gif and return a list of all gifs
-* PUT `gifs/:gifId` which will update a gif and return a list of all gifs
-* DELETE `gifs/:gifId` which will delete a gif and return a list of all gifs
+- GET `/gifs` which will list out all gifs
+- POST `/gifs` which will add a new gif and return a list of all gifs
+- PUT `gifs/:gifId` which will update a gif and return a list of all gifs
+- DELETE `gifs/:gifId` which will delete a gif and return a list of all gifs
 
 You should have your database set up to store a collection of gifs. Your model
 should have two attributes:
 
-* a `name` for the name of a gif
-* a `url` for the url of the gif
+- a `name` for the name of a gif
+- a `url` for the url of the gif
 
 If these are named differently, you will have to change the frontend!
 
@@ -43,30 +42,31 @@ We recommend using the Giphy site to get gifs. Use the full URL that has the
 "https://media.giphy.com/media/3o6ozBUuLfzTCngAFi/giphy.gif").
 
 ### Required Planning - Create a Request-Response Cycle Diagram
-In your breakout group, take about 30 minutes to co-create a visual representation 
-of the request-response cycle for your Gaphy app based on the requirements above. 
 
-You can use [the 
-diagram](./request-response-cycle-example.png) of the book-e-json back end we created together 
+In your breakout group, take about 30 minutes to co-create a visual representation
+of the request-response cycle for your Gaphy app based on the requirements above.
+
+You can use [the
+diagram](./request-response-cycle-example.png) of the book-e-json back end we created together
 in class as an example.
 
-You MUST complete this step before you start writing any code. Use your diagram 
+You MUST complete this step before you start writing any code. Use your diagram
 as a guide during the coding process.
 
 ### Tips for Getting Started
 
-* To start, do a codebase review of the repo.
-* You'll want to set up all your backend folders and files (think: `db` folder, `index.js` file, etc.). 
-* You'll also want to run `npm init` from inside the backend folder to create a `package.json` file to manage dependencies (e.g. `express`).
-* Set up routes in a controller.
-* Once you have your back end running on `http://localhost:3000/gifs`, open `index.html` on the front end to test your routes via the frontend buttons.
+- To start, do a codebase review of the repo.
+- You'll want to set up all your backend folders and files (think: `db` folder, `index.js` file, etc.).
+- You'll also want to run `npm init` to create a `package.json` file to manage dependencies (e.g. `express`).
+- Set up routes in a controller.
 
 **You shouldn't need to edit the front-end code.** After testing your backend
 and frontend together, you may have to modify and fix your backend.
 
 ## Bonus
-* Add the ability to add a tag when creating a gif.
-* Add another model to the API.
+
+- Add the ability to add a tag when creating a gif.
+- Add another model to the API.
 
 ## Plagiarism
 
