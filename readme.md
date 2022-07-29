@@ -9,14 +9,15 @@ a bunch of Gifs.
 ![](images/gaphy.png)
 
 The frontend application has full CRUD functionality, your job is to create the
-backend code to make it functional! The frontend can be found in this repository: https://github.com/SEIR-59/express-api-lab-frontend
+backend code to make it functional!
 
 ## Instructions
 
-1. Fork and clone the frontend repository: https://github.com/SEIR-59/express-api-lab-frontend. Then start up the frontend using liveserver or by opening the index.html.
 1. Fork and clone this repository.
 1. Change into the new directory.
 1. Fulfill the listed requirements.
+
+Build out your backed in the `backend/` directory.
 
 ## Requirements
 
